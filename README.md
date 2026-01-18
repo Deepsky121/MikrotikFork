@@ -1,4 +1,4 @@
-# 🚀 Mikrotik Exam: One-Click Config
+# 🚀 Mikrotik SMK MAARIP: Pembekalan
 
 > *May your ping be low and your grade be high.* — (｡•̀ᴗ-)✧ By AzmiiDev
 
