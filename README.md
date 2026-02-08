@@ -7,14 +7,14 @@
 ![Networking](https://img.shields.io/badge/Topic-Networking-green)
 
 Panduan singkat & praktis  
-Disusun ringkas, fokus poin ujian, dan langsung bisa dieksekusi via **Terminal RouterOS**.
+Disusun ringkas, dan langsung bisa dieksekusi via **Terminal RouterOS**.
 
 ---
 
 ## 📝 1. Basic & IP Address
 
 > ⚠️ **Catatan:**  
-> Ganti `ether2`, `ether3`, atau `192.168.x.x` sesuai instruksi pengawas.
+> Ganti `ether2`, `ether3`, atau `192.168.x.x` sesuai instruksi
 
 ```bash
 /system identity set name="Peserta-Ujian-Ganteng"
