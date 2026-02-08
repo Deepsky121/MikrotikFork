@@ -14,7 +14,7 @@
 ## ROUTER 2 ##
 /ip address add address=172.16.100.1/16 interface=ether1
 /ip address add address=192.100.20.1/24 interface=wlan1
-/ip route add gateway=172.16.0.1
+/ip route add gateway=172.16.200.1(ngambil dari ether1)
 /ip dns set servers=8.8.8.8
 /ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
 /interface enable wlan1
