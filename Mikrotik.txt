@@ -26,4 +26,16 @@
 /routing ospf network add network=172.16.0.0/16 area=backbone
 /routing ospf network add network=192.100.20.0/24 area=backbone
 
+Pengujian Router 1
+- Ping internet di client yang menggunakan kabel. buka cmd ping ke www.google.com
+- Ping ke ip wlan1 R2
+- Ping ke ip client yang tersambung wifi (HP).
+- Tes blokir situs. Buka chrome dan masukkan alamat website yang di blokir.
+
+Pengujian di Router 2
+- Ping internet di client yang terhubung ke wifi. buka cmd ping ke www.google.com
+- Ping ke ip ether2 R1
+-Ping ke ip client yang tersambung kabel.
+
+
 ## END ##
