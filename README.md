@@ -5,7 +5,6 @@
 
 ![MikroTik](https://img.shields.io/badge/MikroTik-RouterOS-blue)
 ![Networking](https://img.shields.io/badge/Topic-Networking-green)
-![Exam Ready](https://img.shields.io/badge/Status-Exam%20Ready-success)
 
 Panduan singkat & praktis  
 Disusun ringkas, fokus poin ujian, dan langsung bisa dieksekusi via **Terminal RouterOS**.
