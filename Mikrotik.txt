@@ -6,7 +6,8 @@
 /ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
 /ip proxy set enable=yes port=3128 cache-administrator=admin@sekolah.sch.id
 /ip firewall nat add chain=dstnat protocol=tcp dst-port=80 action=redirect to-ports=3128 in-interface=ether2
-/ip proxy access add dst-host=www.linux.org action=deny
+/ip proxy access add dst-host=httpforever.com action=deny
+/ip proxy access add dst-host=jucciz.com action=deny
 /routing ospf interface add interface=ether1
 /routing ospf network add network=172.16.0.0/16 area=backbone
 /routing ospf network add network=192.200.10.0/24 area=backbone
@@ -14,7 +15,7 @@
 ## ROUTER 2 ##
 /ip address add address=172.16.100.1/16 interface=ether1
 /ip address add address=192.100.20.1/24 interface=wlan1
-/ip route add gateway=172.16.200.1(ngambil dari ether1)
+/ip route add gateway=172.16.200.1(ngambil dari router 1 ether1)
 /ip dns set servers=8.8.8.8
 /ip firewall nat add chain=srcnat out-interface=ether1 action=masquerade
 /interface enable wlan1
