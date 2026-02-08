@@ -7,18 +7,8 @@
 ![Networking](https://img.shields.io/badge/Topic-Networking-green)
 ![Exam Ready](https://img.shields.io/badge/Status-Exam%20Ready-success)
 
-Panduan singkat & praktis untuk **ujian Mikrotik SMK MA’ARIF**.  
+Panduan singkat & praktis  
 Disusun ringkas, fokus poin ujian, dan langsung bisa dieksekusi via **Terminal RouterOS**.
-
----
-
-## 📚 Daftar Isi
-1. [Basic & IP Address](#-1-basic--ip-address)
-2. [Internet Gateway (NAT & Route)](#-2-internet-gateway-nat--route)
-3. [Web Proxy & Blocking](#-3-web-proxy--blocking)
-4. [Static Routing](#-4-static-routing)
-5. [Pro Tips](#-pro-tips)
-6. [Meme of the Day](#-meme-of-the-day)
 
 ---
 
